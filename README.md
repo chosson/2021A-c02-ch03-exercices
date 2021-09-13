@@ -1,8 +1,4 @@
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod-redirect-0.herokuapp.com/)
-
 # Exercices du chapitre 3
-
-Avant de commencer. Consulter les instructions à suivre dans [instructions.md](instructions.md)
 
 Chaque exercice est dans une fonction dans [exercice.py](exercice.py) et retourne le résultat.
 

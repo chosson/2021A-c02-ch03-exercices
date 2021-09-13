@@ -11,7 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>Exercices</Name>
     <RootNamespace>Exercices</RootNamespace>
-    <TestFramework>none</TestFramework>
+    <TestFramework>unittest</TestFramework>
     <UnitTestPattern>test*.py</UnitTestPattern>
     <UnitTestRootDirectory>.</UnitTestRootDirectory>
   </PropertyGroup>
@@ -27,6 +27,15 @@
     <Compile Include="exercice.py" />
     <Compile Include="test_exercice.py" />
     <Compile Include="_exercice_version_prof.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="README.md" />
+    <Content Include="settings\files_to_update.txt" />
+    <Content Include="settings\test_associations.json" />
+    <Content Include="settings\variables.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="settings\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
